@@ -16,8 +16,6 @@ function handleScroll() {
     });
 }
 
-// Привязываем обработчик к событию прокрутки
 window.addEventListener('scroll', handleScroll);
 
-// Запускаем проверку при загрузке страницы
 handleScroll();
